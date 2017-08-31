@@ -1,5 +1,6 @@
-![](Support%20Extra/ICO/app_ico/app-ico_30@3x.png)
-# Friendly leave (iOS)
+![](readmeimg/app_poster.png)
+<img src="readmeimg/app_poster.png" width = "200">
+
 ![](readmeimg/Platform.png) ![](readmeimg/Build%20version.png) ![](readmeimg/Swift%20version.png)
 
 
@@ -59,4 +60,4 @@
 ###### Still some bugs available in this project. Please send me if you found some errors using this [mail](m.nadeeshan@yahoo.co.uk).
 
 
-###### This is not a final application. I hope to develop more. If you like this to test this project, you can download and test it.
+###### This is not a final application. I hope to develop more. If you like to test this project, you can download and test it.
