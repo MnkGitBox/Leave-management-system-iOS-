@@ -1,4 +1,5 @@
-![](Support%20Extra/ICO/app_ico/app-ico_30@3x.png) # Friendly leave (iOS)
+![](Support%20Extra/ICO/app_ico/app-ico_30@3x.png)
+# Friendly leave (iOS)
 ![](readmeimg/Platform.png) ![](readmeimg/Build%20version.png) ![](readmeimg/Swift%20version.png)
 
 
