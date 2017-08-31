@@ -1,4 +1,4 @@
-![](readmeimg/app_poster.png)
+<!-- ![](readmeimg/app_poster.png) -->
 <img src="readmeimg/app_poster.png" width = "200">
 
 ![](readmeimg/Platform.png) ![](readmeimg/Build%20version.png) ![](readmeimg/Swift%20version.png)
