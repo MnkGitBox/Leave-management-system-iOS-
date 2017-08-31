@@ -1,4 +1,5 @@
 # Friendly leave 2.0(iOS)
+![](readmeimg/Platform.png) ![](readmeimg/Build%20version.png) ![](readmeimg/Swift%20version.png)
 
 
 ## Features
@@ -48,6 +49,8 @@
    password : admin02.password
     ```
 
+# Author
+[Malith nadeeshan](m.nadeeshan@yahoo.co.uk)
 
 
 ## Bugs
