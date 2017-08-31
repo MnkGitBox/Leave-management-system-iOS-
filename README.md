@@ -1,7 +1,7 @@
 ![](readmeimg/app_poster.png)
 
 
-![](readmeimg/Platform.png) ![](readmeimg/Build%20version.png) ![](readmeimg/Swift%20version.png)
+![](readmeimg/Platform.png) ![](readmeimg/Build%20version.png) ![](readmeimg/Swift%20version.png) ![](readmeimg/powered.png)
 
 
 ## Features
