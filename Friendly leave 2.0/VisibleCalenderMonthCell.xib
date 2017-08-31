@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="calenderMonth" id="gTV-IL-0wX" customClass="VisibleCalenderMonthCell" customModule="Friendly_leave_2_0" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="299" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="299" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dne-HC-gFr">
+                        <rect key="frame" x="129" y="15.5" width="41.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Dne-HC-gFr" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="2Fj-X2-ZqH"/>
+                <constraint firstItem="Dne-HC-gFr" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="ZEF-sS-CIh"/>
+            </constraints>
+            <size key="customSize" width="299" height="50"/>
+            <connections>
+                <outlet property="monthAndYear" destination="Dne-HC-gFr" id="k8z-hN-TYZ"/>
+            </connections>
+            <point key="canvasLocation" x="158.5" y="54"/>
+        </collectionViewCell>
+    </objects>
+</document>

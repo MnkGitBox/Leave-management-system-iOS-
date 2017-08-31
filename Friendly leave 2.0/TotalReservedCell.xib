@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="38" id="KGk-i7-Jjw" customClass="TotalReservedCell" customModule="Friendly_leave_2_0" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yZc-a8-X1n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H95-m0-APm">
+                                <rect key="frame" x="232" y="12" width="80" height="24"/>
+                                <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Wak-fC-Xf2"/>
+                                    <constraint firstAttribute="height" constant="24" id="xmC-0s-oF9"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8G-xN-hQq">
+                                <rect key="frame" x="263.5" y="15" width="17.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Totale Reserved For Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="bAQ-ZD-k4N">
+                                <rect key="frame" x="16" y="14.5" width="208.5" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16.5"/>
+                                <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="V8G-xN-hQq" firstAttribute="centerY" secondItem="H95-m0-APm" secondAttribute="centerY" id="1S3-rU-Oou"/>
+                            <constraint firstItem="V8G-xN-hQq" firstAttribute="centerX" secondItem="H95-m0-APm" secondAttribute="centerX" id="4Mg-dS-p6u"/>
+                            <constraint firstAttribute="trailing" secondItem="H95-m0-APm" secondAttribute="trailing" constant="8" id="ILE-mC-DNL"/>
+                            <constraint firstItem="bAQ-ZD-k4N" firstAttribute="centerY" secondItem="yZc-a8-X1n" secondAttribute="centerY" id="XXS-qR-jS7"/>
+                            <constraint firstAttribute="height" constant="49.5" id="cvf-N6-enT"/>
+                            <constraint firstItem="bAQ-ZD-k4N" firstAttribute="leading" secondItem="yZc-a8-X1n" secondAttribute="leading" constant="16" id="d7K-Y1-Ar0"/>
+                            <constraint firstItem="H95-m0-APm" firstAttribute="centerY" secondItem="yZc-a8-X1n" secondAttribute="centerY" id="mU8-PV-aob"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yZc-a8-X1n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3SW-q8-U4o"/>
+                    <constraint firstItem="yZc-a8-X1n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="G3b-dA-sCH"/>
+                    <constraint firstAttribute="trailing" secondItem="yZc-a8-X1n" secondAttribute="trailing" id="UeX-cD-Mgf"/>
+                    <constraint firstAttribute="bottom" secondItem="yZc-a8-X1n" secondAttribute="bottom" id="WrQ-Yx-fPB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="reservedTimePeriod" destination="V8G-xN-hQq" id="lLr-UQ-Pbu"/>
+                <outlet property="reservedTimePeriodContainer" destination="H95-m0-APm" id="vp7-wi-L5U"/>
+                <outlet property="timePeriod" destination="bAQ-ZD-k4N" id="xaz-pm-ghd"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="52"/>
+        </tableViewCell>
+    </objects>
+</document>

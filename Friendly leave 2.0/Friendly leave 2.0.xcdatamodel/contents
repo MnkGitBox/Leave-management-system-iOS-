@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13154.30" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Info" representedClassName=".Info" syncable="YES" codeGenerationType="category">
+        <attribute name="accUserID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="beginDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="currState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isChecked" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="leaveDays" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="leaveTypeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reactionTime" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rejDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rejReason" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rejUserID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reqDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="reqReason" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="returnDate" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="leaveType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LeaveType" inverseName="info" inverseEntity="LeaveType" syncable="YES"/>
+    </entity>
+    <entity name="LeaveType" representedClassName=".LeaveType" syncable="YES" codeGenerationType="category">
+        <attribute name="descri" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="period" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profile_img" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remain" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="reserved" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="info" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Info" inverseName="leaveType" inverseEntity="Info" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Info" positionX="-54" positionY="45" width="128" height="285"/>
+        <element name="LeaveType" positionX="-299" positionY="45" width="128" height="163"/>
+    </elements>
+</model>
