@@ -1,8 +1,10 @@
 ![](readmeimg/app_poster.png)
 
+![](readmeimg/Platform.png) ![](readmeimg/Build%20version.png) ![](readmeimg/Swift%20version.png) ![](readmeimg/powered.png)
+
 <img src = "readmeimg/video.gif">
 
-![](readmeimg/Platform.png) ![](readmeimg/Build%20version.png) ![](readmeimg/Swift%20version.png) ![](readmeimg/powered.png)
+* [Full Video](https://www.youtube.com/watch?v=xRXkgcM2xkQ)
 
 
 ## Features
