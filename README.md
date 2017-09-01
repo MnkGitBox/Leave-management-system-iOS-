@@ -1,5 +1,6 @@
 ![](readmeimg/app_poster.png)
 
+<img src = "readmeimg/video.gif">
 
 ![](readmeimg/Platform.png) ![](readmeimg/Build%20version.png) ![](readmeimg/Swift%20version.png) ![](readmeimg/powered.png)
 
