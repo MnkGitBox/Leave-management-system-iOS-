@@ -2,7 +2,7 @@
 
 ![](readmeimg/Platform.png) ![](readmeimg/Build%20version.png) ![](readmeimg/Swift%20version.png) ![](readmeimg/powered.png)
 
-<a href = "https://www.youtube.com/watch?v=xRXkgcM2xkQ" ><img src = "readmeimg/video.gif" height = "300px"></a>
+<a href = "https://www.youtube.com/watch?v=xRXkgcM2xkQ" ><img src = "readmeimg/video.gif" height = "300px" padding = "10px 0 10px 200px"></a>
 
 * [Full Video](https://www.youtube.com/watch?v=xRXkgcM2xkQ)
 
