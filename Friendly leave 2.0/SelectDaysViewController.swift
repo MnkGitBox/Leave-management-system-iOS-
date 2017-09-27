@@ -86,7 +86,6 @@ class SelectDaysViewController: UIViewController {
         cv.calendarDelegate  = self
         cv.backgroundColor = .clear
         cv.translatesAutoresizingMaskIntoConstraints = false
-        
         return cv
     }()
     
@@ -347,21 +346,6 @@ class SelectDaysViewController: UIViewController {
     let customAlert = CustomAlert()
     
     let nextButton = CustomButton()
-    
-    //    @IBOutlet var alertContainer: UIView!
-    //    @IBOutlet weak var alertButtonContainer: UIView!
-    //    @IBOutlet weak var alertButtonLabel: UILabel!
-    //    @IBOutlet weak var alertMessage: UILabel!
-    //    @IBOutlet var alertBackgroundEffectView: UIVisualEffectView!
-    //
-    
-    //
-    //    lazy var alertButtonTapGesture:UITapGestureRecognizer = {
-    //        let gesture = UITapGestureRecognizer()
-    //        gesture.numberOfTapsRequired = 1
-    //        gesture.addTarget(self, action: #selector(perFormAlertHidden(_:)))
-    //        return gesture
-    //    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -657,7 +641,10 @@ class SelectDaysViewController: UIViewController {
     @objc func clearSelectedDaysInfo(){
         
         guard let begin = leaveBeginDate else {return}
+        calenderCV.isUserInteractionEnabled = true
+        
         calenderCV.deselectDates(from: begin, to: workReturnDate, triggerSelectionDelegate: true)
+        
         leaveBeginDate = nil
         workReturnDate = nil
         selectedWeekDays.removeAll()
@@ -697,9 +684,10 @@ class SelectDaysViewController: UIViewController {
         selectedInfo[dbAttributename.beginDate] = leaveBeginDate
         selectedInfo[dbAttributename.returnDate] = workReturnDate
         
-        //set button and empty label behavior
+        //set button,Calender and empty label behavior
         nextButton.isEnabled = true
         clearButton.isEnabled = true
+        calenderCV.isUserInteractionEnabled = false
         animateOffEmptyLabel()
         
     }

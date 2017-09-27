@@ -26,17 +26,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    func setupNavigationBarDefaultValue(){
-        
-        UINavigationBar.appearance().barTintColor = UIColor.turquoise()
-        UINavigationBar.appearance().tintColor = .white
-        
-        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName:UIFont.systemFont(ofSize: 17, weight: UIFontWeightMedium),NSForegroundColorAttributeName:UIColor.white]
-        UINavigationBar.appearance().shadowImage = UIImage()
-        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
-        UINavigationBar.appearance().isTranslucent = false
-     
-    }
+//    func setupNavigationBarDefaultValue(){
+//        
+//        UINavigationBar.appearance().barTintColor = UIColor.turquoise()
+//        UINavigationBar.appearance().tintColor = .white
+//        
+//        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName:UIFont.systemFont(ofSize: 17, weight: UIFontWeightMedium),NSForegroundColorAttributeName:UIColor.white]
+//        UINavigationBar.appearance().shadowImage = UIImage()
+//        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+//        UINavigationBar.appearance().isTranslucent = false
+//     
+//    }
     func configNavigationBar(){
         
         UINavigationBar.appearance().barTintColor = CustomColor.nightBlue
